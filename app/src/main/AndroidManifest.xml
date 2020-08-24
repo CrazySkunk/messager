@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.foxhole.chatappmvvmdagger2rxjavafirestore">
+    package="com.skunk.letschat">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -20,7 +20,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.foxhole.chatappmvvmdagger2rxjavafirestore.ui.main.MainActivity" />
+                android:value=".ui.main.MainActivity" />
         </activity>
         <activity
             android:name=".ui.profile.ProfileActivity"
@@ -30,7 +30,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.foxhole.chatappmvvmdagger2rxjavafirestore.ui.main.MainActivity" />
+                android:value=".ui.main.MainActivity" />
         </activity>
         <activity
             android:name=".ui.account.AccountActivity"
@@ -39,7 +39,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.foxhole.chatappmvvmdagger2rxjavafirestore.ui.main.MainActivity" />
+                android:value=".ui.main.MainActivity" />
         </activity>
         <activity
             android:name=".HomeActivity"
@@ -52,7 +52,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.foxhole.chatappmvvmdagger2rxjavafirestore.HomeActivity" />
+                android:value=".HomeActivity" />
         </activity>
         <activity
             android:name=".ui.login.LoginActivity"
@@ -61,7 +61,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.foxhole.chatappmvvmdagger2rxjavafirestore.HomeActivity" />
+                android:value=".HomeActivity" />
         </activity>
         <activity
             android:name=".ui.main.MainActivity"
